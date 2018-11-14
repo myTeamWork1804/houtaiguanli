@@ -1,0 +1,282 @@
+body,div,p,ul,ol,li,dl,dt,dd,table,tr,td,th,form,h1,h2,h3,h4,h5,h6,input,textarea,figure,fieldset{
+	margin:0;
+	padding:0;
+
+}
+*{
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+body{
+	font-family:"Microsoft YaHei",Arial;
+	position: relative;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+a{
+	text-decoration:none;
+}
+img{
+  border:0;
+  vertical-align: middle;
+}
+ul,ol{
+	list-style:none;
+}
+
+/* Fleftheader */
+
+.Fheader{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  box-sizing: border-box;
+  display: flex;
+}
+
+
+.f-leftHeader{
+  width: 230px;
+  height: 50px;
+  background: #15a589;
+}
+.f-leftHeader a{
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+}
+
+.f-rightHeader{
+  flex: 1;
+  height: 50px;
+  background: #18bc9c;
+  display: flex;
+}
+.icon-dashboard{
+  margin-right: 10px;
+}
+.f-rightHeader a{
+  display: flex;
+  line-height: 50px;
+  color: #fff;
+}
+
+/*content */
+.bottomMenu{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* 左侧菜单 */
+
+.f-leftContent{
+  /*width: 230px;*/
+  width: 18%;
+  float: left;
+  /*width: 20%;*/
+  height: 100%;
+  background: #222d32;
+  overflow-y: auto;
+}
+.f-userLogin{
+  height: 45px;
+  width: 200px;
+  display: flex;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+.f-userLogin img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.f-user{
+  color: #fff;
+}
+.f-statu .icon-yuan{
+  color: #18bc9c;
+  padding-right: 3px;
+  font-size: 13px;
+}
+.f-statu{
+  margin-top: 5px;
+}
+
+/* 搜索框 */
+.f-seach{
+  /*width: 220px;*/
+  width: 100%;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.f-seachMenu{
+  width: 170px;
+  height: 35px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: #374850;
+  float: left;
+  outline: none;
+  border: 0;
+  text-indent:15px;
+  margin-left: 10px;
+}
+.f-searchBtn{
+  float: left;
+  width: 40px;
+  height: 35px;
+  background: #374850;
+  font-size: 12px;
+  color: #555555;
+  outline: none;
+  border: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* 菜单 */
+.f-MenuLists{
+  /*width: 230px;*/
+  width: 100%;
+  background-color: #222d32;
+}
+ul.f-MenuLists >li:hover{
+  /* background-color: #1e282c; */
+  /* border-left: 4px solid #18bc9c; */
+  background: url(../imgs/fbg.jpg) no-repeat left top ;
+}
+/* .f-MenuLists li{
+  box-sizing: border-box;
+} */
+.f-MenuLists li div{
+  /*width: 210px;*/
+  width: 100%;
+  line-height: 35px;
+  margin-left: 20px;
+  color: #b8c7ce;
+  font-size: 12px;
+  cursor: pointer;
+
+}
+ul.f-MenuLists li div>i{
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.f-MenuLists  .icon-xiaoyu{
+  padding-left: 105px;
+}
+.f-MenuLists .fMoneyManage div >i.icon-xiaoyu{
+  padding-left: 85px;
+}
+.fCMS i.icon-xiaoyu{
+  padding-left: 98px;
+}
+.f-hot{
+  display: inline-block;
+  background-color: #0073b7;
+  width: 33px;
+  height: 18px;
+  border-radius: 4px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 18px;
+  margin-left: 100px;
+  color: #fff;
+  font-weight: 600;
+}
+.f-new{
+  display: inline-block;
+  background-color: #605ca8;
+  width: 38px;
+  height: 18px;
+  border-radius: 4px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 18px;
+  margin-left: 85px;
+  color: #fff;
+  font-weight: 600;
+}
+.f-Mnew{
+  display: inline-block;
+  background-color: #e74c3c;
+  width: 33px;
+  height: 18px;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 18px;
+  margin-left: 90px;
+  color: #fff;
+  font-weight: 600;
+}
+ul.fmanageLists{
+  /*width: 230px;*/
+  width: 100%;
+  line-height: 35px;
+
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #2c3b41;
+}
+ul.fmanageLists >li a{
+  color: #8aa4af;
+  padding-left: 20px;
+}
+/*.fmanageLists >li:hover{*/
+  /*background-color: #1e282c;*/
+
+/*}*/
+
+.fmanageLists li i{
+  font-size: 12px;
+}
+
+
+/* 相关链接 */
+
+.relatedLinks{
+  margin-bottom: 50px;
+}
+
+.relatedetitle{
+  width: 230px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #4b646f;
+  background-color: #1a2226;
+  padding-left:  15px;
+}
+
+
+.fmenu{
+  color: #e74c3c ;
+}
+
+.fchatting{
+  color: #f39c12 ;
+}
+.fqq{
+  color: #3498db ;
+}
+
+
+/*右侧大盒子*/
+.rightMenu{
+
+  background-color: #f1f4f6;
+  height: 100%;
+
+
+}

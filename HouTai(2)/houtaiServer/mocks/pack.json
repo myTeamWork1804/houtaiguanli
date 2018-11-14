@@ -1,0 +1,205 @@
+{
+  "dependencies": {
+    "Statistics":[
+            {
+              "classname":"iconfont icon-guanliyuan",
+              "title":"总会员数",
+              "number":"35200"
+            },
+            {
+              "classname":"iconfont icon-book",
+              "title":"总访问数",
+              "number":"219390"
+            },
+            {
+              "classname":"iconfont icon-qiehuan",
+              "title":"总订单数",
+              "number":"32143"
+            },
+            {
+              "classname":"iconfont icon-jiage-copy",
+              "title":"总金额",
+              "number":"174800"
+            }
+        ],
+    "today":[
+      {
+          "classname":"iconfont icon-huojian",
+          "title":"今日注册",
+          "number":"430"
+        },
+
+        {
+          "classname":"iconfont icon-rili",
+          "title":"今日登陆",
+          "number":"321"
+        },
+        {
+          "classname":"iconfont icon-tongji",
+          "title":"今日订单",
+          "number":"2324"
+        },
+        {
+          "classname":"iconfont icon-sangeren",
+          "title":"未处理订单",
+          "number":"132"
+        },
+        {
+          "classname":"iconfont icon-biaoge",
+          "title":"七日新增",
+          "number":"80%"
+        },
+        {
+          "classname":"iconfont icon-jiage-copy",
+          "title":"七日活跃",
+          "number":"32%"
+        }
+      ],
+
+    "realtime": {
+      "one": [
+        {
+          "classification": "分类统计",
+          "state": "实时",
+          "number": "1234",
+          "title": "当前总分记录",
+          "classname": "iconfont icon-pinglun"
+        },
+        {
+          "classification": "附件统计",
+          "state": "实时",
+          "number": "1043",
+          "title": "当前上传的附件量",
+          "classname": "iconfont icon-pinglun"
+        }
+      ],
+      "two": [
+        {
+          "classification": "文章统计",
+          "state": "实时",
+          "comment": "1234",
+          "commentnumber": "评论次数",
+          "classname":"iconfont icon-pinglun",
+          "Givethethumbsup": "6754",
+          "Givethethumbsupnumber": "点赞次数",
+          "className":"iconfont icon-dianzan"
+        },
+        {
+          "classification": "新闻统计",
+          "state": "实时",
+          "comment": "5302",
+          "commentnumber": "评论次数",
+          "classname":"iconfont icon-pinglun",
+          "Givethethumbsup": "8205",
+          "Givethethumbsupnumber": "点赞次数",
+          "className":"iconfont icon-dianzan"
+        }
+      ]
+    },
+
+
+    "Journalism":{
+      "content":[
+        {
+          "title":"FastAdmin重磅推出强大的FormBuilder(表单生成器)功能",
+          "url":"http://www.taobao.com"
+        },
+        {
+          "title":"FastAdmin官方出品响应式博客(含小程序前后端)上架啦",
+          "url":"http://www.jd.com"
+        },
+        {
+          "title":"FastAdmin官方出品CMS内容管理系统(含小程序前后端)上架啦",
+          "url":"http://www.vip.com"
+        },
+        {
+          "title":"FastAdmin免签约、免手续费个人二维码收款插件上架啦",
+          "url":"http://www.baidu.com"
+        },
+        {
+          "title":"FastAdmin全新官方交流社区上线",
+          "url":"http://www.baidu.com"
+        },
+        {
+          "title":"FastAdmin邀请你加入官方QQ交流群和小伙伴一起交流",
+          "url":"http://www.baidu.com"
+        },
+        {
+          "title":"FastAdmin邀请你在码云上为FastAdmin点赞",
+          "url":"http://www.baidu.com"
+        },
+        {
+          "title":"Fastadmin插件开发教程之目录文件介绍",
+          "url":"http://www.baidu.com"
+        },
+        {
+          "title":"FastAdmin插件开发教程之简明开发教程",
+          "url":"http://www.baidu.com"
+        },
+        {
+          "title":"提示“未知的数据格式或网络错误”时该如何排查错误？",
+          "url":"http://www.baidu.com"
+        }
+      ],
+      "Thelatestpost":[
+        {"title":"我用Linux命令行安装，安装完之后每个页面都是【你所浏览的页面暂时无法访问】"},
+        {"title":"laravel怎么集成这个前端页面"},
+        {"title":"js文件中如何定以驼峰控制器的js名称？"},
+        {"title":"Table.api.formatter.url 如何自定义 根域名"},
+        {"title":"企业支付用微信支付,提示签名错误?"},
+        {"title":"弹窗问题"},
+        {"title":"图片预览"},
+        {"title":"CMS内容管理插件如何添加付费阅读查看功能？"},
+        {"title":"下载安装包安装之后，登陆不上后台"},
+        {"title":"CMS 插件升级到1.0.17，模型字段添加编辑均出现错误。"}
+      ],
+      "server":[
+        {
+          "title":"FastAdmin版本",
+          "content":"1.0.0.20180806_beta",
+          "inspect":"检查最新版本"
+        },
+        {
+          "title":"FastAdmin插件版本",
+          "content":"1.1.6"
+        },
+        {
+          "title":"运行方式",
+          "content":"fpm-fcgi"
+        },
+        {
+          "title":"调试模式",
+          "content":"否"
+        },
+        {
+          "title":"环境信息",
+          "content":"nginx/1.12.2"
+        },
+        {
+          "title":"上传模式",
+          "content":"upyun"
+        },
+        {
+          "title":"上传URL",
+          "content":"https://v0.api.upyun.com/fastadmin-demo"
+        },
+        {
+          "title":"上传CDN",
+          "content":"https://cdn.demo.fastadmin.net"
+        },
+        {
+          "title":"时区",
+          "content":"PRC"
+        },
+        {
+          "title":"静态资源CDN",
+          "content":"https://cdn.demo.fastadmin.net"
+        },
+        {
+          "title":"语言",
+          "content":"zh-cn"
+        }
+      ]
+      }
+    }
+  }

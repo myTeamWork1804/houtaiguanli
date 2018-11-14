@@ -1,0 +1,296 @@
+*{
+  padding:0;
+  margin:0;
+}
+html,body{
+  height:100%;
+}
+body{
+  font-family:"微软雅黑",Arial;
+  position: relative;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+img{
+  border:0;
+}
+/*header开始*/
+.D-header{
+  width:100%;
+  height:50px;
+  background:#18bc9c;
+  position: fixed;
+}
+.D-header-left{
+  width:230px;
+  height:50px;
+  font-size:16px ;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  background:#15a589;
+}
+.D-header-minddle{
+  width:610px;
+  height:50px;
+  float: left;
+  color: #ffffff;
+}
+.D-menu{
+  width:45px;
+  height:50px;
+  text-align:center;
+  line-height: 50px;
+  float: left;
+}
+.D-Console{
+  width:90px;
+  height:50px;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  background: #16a98c;
+}
+.D-header-right{
+  width:432px;
+  height:50px;
+  float: right;
+}
+.D-header-right span{
+  display: block;
+  width:54px;
+  height:50px;
+  font-size:14px;
+  line-height: 50px;
+  float: left;
+  text-align: center;
+}
+.D-header-right .iconfont{
+  color:#ffffff;
+}
+.D-header-right span:hover{
+  background: #15a589;
+}
+.user{
+  width:108px;
+  height:50px;
+  float: left;
+  line-height: 50px;
+  color: #ffffff;
+}
+.user img{
+  width:25px;
+  height:25px;
+  border-radius:50%;
+  vertical-align: middle;
+  margin-right:10px;
+  margin-left:10px;
+}
+.user:hover{
+  background:#15a589;
+}
+/*header结束*/
+
+/*竖型导航开始*/
+.D-nav{
+  width:228px;
+  background:#222d32;
+  float: left;
+  overflow-x: hidden;
+}
+.user-box{
+  width:230px;
+  height:65px;
+}
+.user-box img{
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.username{
+  width:54px;
+  height:45px;
+  float: left;
+  margin-left: 14px;
+  margin-top: 10px;
+  line-height:22px;
+  font-size: 13px;
+  color:#ffffff;
+}
+.username .icon-yuan{
+  color: #18bc9c;
+}
+.Search{
+  width:210px;
+  height:56px;
+  border-radius: 5px;
+  background:#222d32;
+  margin:0 auto;
+}
+.Search input{
+  width:170px;
+  height:37px;
+  background: #374850;
+  border:none;
+  float: left;
+  text-indent:14px;
+  outline: none;
+  margin-top: 10px;
+}
+.Search span{
+  display: inline-block;
+  width:40px;
+  height:37px;
+  background:#374850;
+  float: left;
+  text-align: center;
+  line-height: 37px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Vertical-menu{
+  width:228px;
+  cursor: pointer;
+}
+.Vertical-menu .iconfont{
+  margin-right: 6px;
+}
+.Vertical-menu li{
+  display: block;
+  width:228px;
+  height:42px;
+  text-indent: 22px;
+  line-height: 42px;
+  color:#b8c7ce;
+  font-size: 14px;
+}
+.Vertical-menu li:hover{
+  background: #1e282c;
+  border-left: 2px solid #18bc9c;
+  color: #ffffff;
+}
+.Vertical-menu .hoot{
+  display: inline-block;
+  background: #0073b7;
+  text-indent: 0;
+  width:33px;
+  height:18px;
+  text-align:center;
+  line-height: 18px;
+  margin-left:84px;
+  color:#ffffff;
+}
+.Vertical-menu .new{
+  display: inline-block;
+  background: #605ca8;
+  text-indent: 0;
+  width:38px;
+  height:18px;
+  text-align:center;
+  line-height: 18px;
+  margin-left:70px;
+  color:#ffffff;
+}
+/*相关链接*/
+.Related-links{
+  width:230px;
+  height:38px;
+  background: #1a2226;
+  font-size: 14px;
+  color: #4b646f;
+  text-indent: 22px;
+  line-height: 38px;
+}
+/*页面主题内容*/
+.D-content{
+  width:1120px;
+  float:left;
+  background: #f1f4f6;
+}
+.title-content{
+  width:1090px;
+  height:18px;
+  font-size: 14px;
+  color: #777777;
+  margin:15px 15px 0 15px;
+}
+.D-title{
+  float: left;
+}
+.D-text{
+  float: right;
+}
+.D-text-box{
+  width:1090px;
+  height:108px;
+  background:#e8edf0;
+  margin:15px 15px 0 15px;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+.D-ul-box{
+  margin-top:30px;
+}
+.switch01{
+  width:70px;
+  height:40px;
+  background: #d8e0e6;
+  color:#adbbbd;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  margin-right:6px;
+}
+.switch01 a{
+  color:#adbbbd;
+}
+#switch02{
+  border-bottom: none;
+  background: #ffffff;
+}
+.D-data-box{
+  width:100%;
+  margin:0 auto;
+  background:#ffffff;
+}
+.Total-data-box{
+  width:25%;
+}
+.Total-number-of-members{
+  margin-top: 5px;
+  padding:20px;
+}
+
+
+.Icon{
+  float: left;
+  width:60px;
+  height:60px;
+  text-align: center;
+  line-height: 60px;
+  background:#f05050;
+  margin-right: 10px;
+}
+.Icon .iconfont{
+  font-size:34px;
+}
+
+.number span{
+  font-size:18px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+.number{
+  font-size:12px;
+  padding-top:4px;
+}

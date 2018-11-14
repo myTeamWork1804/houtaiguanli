@@ -1,0 +1,473 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,p,ul,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,textarea,img{
+  margin:0;
+  padding:0;
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+i{
+  font-style:normal;
+}
+ul li{
+  list-style:none;
+}
+a {
+  text-decoration:none;
+}
+img {
+  border: 0;
+}
+
+body{
+  background: #f1f4f6;
+  font-size:13px;
+  user-select: none;
+}
+.clearfix::after{
+  content:'';
+  height:0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.qh{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+.clearfix::after{
+    content:'';
+    height:0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+
+/*title*/
+.qh_title a{
+    color: #777 ;
+}
+.qh_title{
+    overflow: hidden;
+    padding: 15px 15px 0 15px;
+    position: relative;
+}
+.qh_title_left{
+    float:left;
+}
+.qh_title_right{
+    float:right;
+}
+.qh_title_right_xie::before{
+    content: "/";
+    padding: 0 5px;
+    color: #ccc;
+}
+.qh_content{
+    min-height: 250px;
+    padding: 15px;
+}
+.qh_header{
+    padding: 15px;
+    padding-bottom: 0;
+    background: #e8edf0;
+    border-color: #e8edf0;
+    position: relative;
+}
+.qh_nav li{
+    float: left;
+    margin-bottom: -1px;
+    position: relative;
+}
+.qh_nav li a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #e8edf0;
+    margin-right: 4px;
+    color: #95a5a6;
+    background-color: #d8e0e6;
+}
+.qh_nav .li_active a{
+    color: #7b8a8b;
+    background-color: #ffffff;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+/*ztree*/
+ul.ztree{
+    width: 100%;
+    height:100%;
+    overflow-y: initial;
+    padding: 15px;
+    background-color: #fff;
+    border: none;
+}
+
+
+/*content*/
+.qh_content_leftbox{
+    float:left;
+    position: relative;
+    min-height: 1px;
+    /*padding-left: 15px;*/
+    width: 25%;
+
+}
+.ztree_content{
+    /*padding: 15px;*/
+    background-color: #fff;
+
+}
+.ztree_header {
+    padding: 15px;
+    padding-bottom: 0;
+    background: #e8edf0;
+    border-color: #e8edf0;
+    position: relative;
+    color: #333333;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.ztree_zz{
+    padding: 15px;
+}
+
+.qh_content_box{
+    padding-left:15px;
+    width: 75%;
+    float:left;
+}
+.qh_content_sub{
+    padding: 15px;
+    background-color: #fff;
+}
+.qh_content_box::after{
+    content:'';
+    height:0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.row::after{
+    content:'';
+    height:0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+.qh_box_inp{
+    margin-bottom: 15px;
+    width: 25%;
+    float: left;
+    position: relative;;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.input_box{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 66.66666667%;
+    float:left;
+    box-sizing: border-box;
+}
+.form_label{
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+    width: 33.33333333%;
+    float:left;
+    padding-left: 15px;
+    /*padding-right: 15px;*/
+}
+.form_input{
+    display: inline-block;
+    width: 100%;
+    height: 31px;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.inp_mag{
+    margin-left: 33.33333333%;
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.input_box_50{
+    width: 50%;
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.input_box-::before{
+    content: "-";
+    position: absolute;
+    left: -2%;
+    top: 6px;
+}
+
+
+/*left*/
+.toolbars {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:left;
+}
+
+/*right*/
+.search_right{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    float: right
+}
+.btn_sear{
+    background-color: #f4f4f4;
+    color: #444;
+    border-color: #ddd;
+    float:left;
+}
+
+.columns_right{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    float:right;
+}
+.sanjiao{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.btn_qiehuan{
+    float:left;
+}
+.keep_open{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    float:left;
+}
+
+.dropdown_menu{
+    position: absolute;
+    top: 100%;
+    right:0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 12px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow-y: auto;
+}
+
+.columns_right label{
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.columns_right label input{
+    margin: 4px 0 0;
+}
+.dropdown_menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333333;
+    white-space: nowrap;
+}
+.search{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:right;
+}
+
+
+
+/*table*/
+.table_container{
+    position: relative;
+    clear: both;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.table_content{
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 100%;
+}
+.table{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 0!important;
+    border: 1px solid #f4f4f4;
+    /*border-bottom: 1px solid #ddd;*/
+    border-collapse: collapse!important;
+    border-spacing: 0;
+    border-radius: 1px;
+    font-size: 13px;
+}
+.th_checkbox{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.th_one{
+    padding:8px 0;
+}
+.th_inner{
+    padding:8px ;
+    line-height: 24px;
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+tbody{
+    background-color: #f9f9f9;
+}
+tbody td{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #f4f4f4;
+    border-bottom: none;
+    font-size:13px;
+}
+
+.a_btn{
+    background-color: #f4f4f4;
+    color: #444;
+    border-color: #ddd;
+    padding: 1px 5px;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.table_pagination{
+    padding: 10px 0;
+}
+.pagination_info{
+    line-height: 34px;
+    margin-right: 5px;
+}
+.pagination_list{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.text_green{
+    color: #18bc9c;
+}
+.btn_gray{
+    background-color: #f4f4f4;
+    color: #444;
+    border-color: #ddd
+}
+.btn_qianblue{
+    color: #fff;
+    background-color: #3498db;
+}
+
+.btn_blue{
+    color: #fff;
+    background-color: #3498db;
+}
+.btn_green{
+    color: #fff;
+    background-color: #18bc9c;
+}
+.btn_black{
+    color: #fff;
+    background-color: #2c3e50;
+}
+.btn_qiangreen{
+    color: #fff;
+    background-color: #18bc9c;
+}
+.btn_red{
+    color: #fff;
+    background-color: #e74c3c;
+}
+i.iconfont{
+    font-size:12px;
+}

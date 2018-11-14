@@ -1,0 +1,37 @@
+[
+    {
+        "id":"1552",
+        "charcter":"-",
+        "name":"u1552",
+        "nickname":"wdqwd",
+        "email":"u1552@fastadmin.net",
+        "phone":"",
+        "table_pic":"./mocks/public/image/mm_table_1.jpg",
+        "level":"1",
+        "grade":"0",
+        "logintime":"2018-11-03 00:25:35",
+        "loginip":"106.47.249.87",
+        "jointime":"2018-11-03 00:25:35",
+        "joinip":"113.78.13.118",
+        "status_normal":"正常"
+
+    },
+
+    {
+        "id":"1553",
+        "charcter":"-",
+        "name":"u1553",
+        "nickname":"ewdwd",
+        "email":"u1553@fastadmin.net",
+        "phone":"",
+        "table_pic":"./mocks/public/image/mm_table_2.jpg",
+        "level":"1",
+        "grade":"0",
+        "logintime":"2018-11-03 00:25:35",
+        "loginip":"106.47.249.87",
+        "jointime":"2018-11-03 00:25:35",
+        "joinip":"113.78.13.118",
+        "status_normal":"正常"
+
+    }
+]   
